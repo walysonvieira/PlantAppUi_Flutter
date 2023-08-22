@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Plant App',
       theme: ThemeData(
           scaffoldBackgroundColor: kBackgroundColor,
-          primaryColor: Colors.amber,
+          primaryColor: kPrimaryColor,
           textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
           visualDensity: VisualDensity.adaptivePlatformDensity),
       home: HomeScreen(),
